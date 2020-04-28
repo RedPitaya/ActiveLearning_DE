@@ -1,0 +1,12 @@
+{%- extends "sphinx_rtd_theme/breadcrumbs.html" %}
+
+{% block breadcrumbs_aside %}
+  <li class="wy-breadcrumbs-aside">
+    {% if hasdoc(pagename) and pagename != "search" and pagename != "genindex" %}
+      <a href="https://activelent.readthedocs.io/en/latest/{{ pagename }}.html">
+      <img src="{{ pathto("_static/uk_flag.png", 1) }}" border="0" alt="UK"/></a>
+      <a href="https://activelearning.readthedocs.io/de/latest/{{ pagename }}.html">
+      <img src="{{ pathto("_static/de_flag.png", 1) }}" border="0" alt="DE"/></a>
+    {% endif %}
+  </li>
+{% endblock %}
