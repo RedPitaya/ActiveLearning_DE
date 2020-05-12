@@ -60,7 +60,7 @@ source_encoding = 'utf-8-sig'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Red Pitaya STEMlab'
+project = u'Red Pitaya'
 copyright = u'2019, Red Pitaya d.d., HSB'
 author = u'Red Pitaya, HSB'
 
@@ -169,7 +169,7 @@ html_favicon = "img/favicon.ico"
 #
 # html_logo = None
 
-html_logo = "img/logo_stemlab.svg"
+html_logo = "img/head_logo.png"
 
 # The name of an image file (relative to this directory) to use as a favicon
 # of the docs.  This file should be a Windows icon file (.ico) being 16x16 or
@@ -294,7 +294,7 @@ latex_documents = [
 # the title page.
 #
 # latex_logo = None
-latex_logo = "img/logo_stemlab.svg"
+latex_logo = "img/head_logo.png"
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
 #
